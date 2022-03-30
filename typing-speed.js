@@ -21,7 +21,7 @@ inputArea.addEventListener('focus', () => {
     text.innerHTML = pool[Math.floor(Math.random()*pool.length)];
     checkedText = text.innerHTML;
 
-    let totalSeconds = 5;
+    let totalSeconds = 60;
     var startTimer = setInterval(clock, 1000);
    
     function clock(){
